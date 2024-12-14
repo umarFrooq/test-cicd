@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 
 // Create a GET route
-app.get('/', (req, res) => { 
+app.get('/', (req, res) => {  
   res.send('hi test cicd');
 }); 
 
